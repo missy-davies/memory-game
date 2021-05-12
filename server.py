@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from helpers import create_cards
 
 
 app = Flask(__name__)
@@ -10,7 +11,13 @@ def homepage():
     return render_template('app.html')
 
 
+@app.route('/cards.json')
+def generate_cards():
+    """Return a JSON of new cards for memory game"""
 
+    cards = create_cards(20)
+
+    return jsonify(cards)
 
 #------------------------------------------------------------------#
 
