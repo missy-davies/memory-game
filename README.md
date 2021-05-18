@@ -12,7 +12,7 @@ To restart the game, hard reload your browser (on mac: cmd+shift+R).
 - Deal Cards
 - Make matches
 - keep track of # cards left in the deck and on the table 
-![Make word matches for classic memory game](/static/img/features/play.gif)
+![Make word matches for classic memory game](/static/img/memory-game.gif)
 
 ## Technologies
 - JavaScript
@@ -34,5 +34,5 @@ To download and use React Memory Game please follow these instructions:
 
 ## Coming Soon...
 A few ideas of features to add in the future: 
-[] Remove card placeholders on table when cards run out 
-[] Add re-deal button at end with win alert 
+- [] Remove card placeholders on table when cards run out 
+- [] Add re-deal button at end with win alert 

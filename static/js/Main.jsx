@@ -17,16 +17,19 @@ function Main() {
 
 	let nullCount = 0;
 	for (const card of cardsInPlay) {
-		if (card === null){
-			nullCount ++;
+		if (card === null) {
+			nullCount++;
 		}
 	}
 
 	if (playing) {
 		return (
 			<React.Fragment>
-				<p id='deck-count'>{deck.length} Cards Left in Deck</p>
-				<p id='table-count'>{cardsInPlay.length - nullCount} Cards on Table</p>
+				<div class='scoring'>
+					<span class='count'>{deck.length}</span> Cards Left in Deck |{' '}
+					<span class='count'>{cardsInPlay.length - nullCount}</span> Cards on
+					Table
+				</div>
 				<PlayArea
 					deck={deck}
 					updateDeck={updateDeck}
@@ -38,7 +41,9 @@ function Main() {
 	} else {
 		return (
 			<React.Fragment>
-				<button onClick={initialDeal}>Deal</button>
+				<div class='button-container'>
+					<button onClick={initialDeal}>Deal</button>
+				</div>
 			</React.Fragment>
 		);
 	}

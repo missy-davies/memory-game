@@ -1,9 +1,9 @@
 .card {
 	border-radius: 15px;
 	border: 3px solid white;
-	width: 8em;
-	height: 4em;
-	margin: 1em;
+	width: 7em;
+	height: 3.5em;
+	margin: .75em;
 	padding: 1em;
 	display: flex;
 	flex-direction: column;
@@ -13,17 +13,17 @@
 }
 
 .card-back {
-	background-image: url('/static/img/more-leaves-on-green.png');
+	background-image: url('/static/img/bananas.png');
 }
 
 .selected {
-	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 10px 10px 15px rgba(0, 0, 0, 0.5),
-		-1px -1px 30px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 5px rgba(58, 58, 58, 0.5), 10px 10px 15px rgba(58, 58, 58, 0.5),
+		-1px -1px 30px rgba(58, 58, 58, 0.2);
 }
 
 #play-area {
-	max-width: 900px;
-	margin: 30px auto;
+	max-width: 800px;
+	margin: 20px auto;
 	padding: 2em 2em;
 	display: flex;
 	flex-flow: wrap;
@@ -31,4 +31,49 @@
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	background-image: url('/static/img/cork-board.png');
+	border-radius: 15px;
+	border: 10px solid #BFE8E3;
+}
+
+.scoring {
+	text-align: center;
+}
+
+.count {
+	font-weight: bold;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	margin-bottom: 0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 100%;
+	background-color: #BFE8E3;
+	color: black;
+	text-align: center;
+	font-size: 10pt;
+}
+
+.info {
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.button-container {
+	display: flex;  
+	justify-content: center;  
+	align-items: center;  
+}
+
+button {
+	width: 100px;
+	padding: 5px;
 }

@@ -25,3 +25,7 @@ def generate_cards():
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
+
+
+# 127.0.0.1       localhost
+# 127.0.1.1       vagrant.vm      vagrant
