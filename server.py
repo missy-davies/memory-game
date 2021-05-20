@@ -3,7 +3,9 @@ from helpers import create_cards
 from random import shuffle 
 
 
-app = Flask(__name__)
+# app = Flask(__name__)
+app = Flask(__name__, static_folder="./static", template_folder="./templates")
+
 
 @app.route('/')
 def homepage():
@@ -25,7 +27,3 @@ def generate_cards():
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
-
-
-# 127.0.0.1       localhost
-# 127.0.1.1       vagrant.vm      vagrant
