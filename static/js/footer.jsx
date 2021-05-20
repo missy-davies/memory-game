@@ -4,7 +4,7 @@ function Footer() {
 			<span class='info'>React Memory Game</span>
 			<span class='info'>Handmade with 💖 by Missy Davies</span>
 			<span class='info'>
-				<a href='https://github.com/missy-davies' target='_blank'>
+				<a href='https://github.com/missy-davies/memory-game' target='_blank'>
 					GitHub
 				</a>
 			</span>

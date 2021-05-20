@@ -16,7 +16,7 @@ def homepage():
 def generate_cards():
     """Return a JSON of new cards for memory game"""
 
-    cards = create_cards(8)
+    cards = create_cards(20)
     shuffle(cards)
     
     return jsonify(cards)
