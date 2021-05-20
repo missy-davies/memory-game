@@ -1,0 +1,19 @@
+{
+  "name": "memory-game",
+  "version": "1.0.0",
+  "description": "React Memory Game is a version of the classic 'memory' card matching game where players attempt to match pairs of cards by turning two at a time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missy-davies/memory-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/missy-davies/memory-game/issues"
+  },
+  "homepage": "https://github.com/missy-davies/memory-game#readme"
+}
